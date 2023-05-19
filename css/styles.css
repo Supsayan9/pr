@@ -21,6 +21,7 @@ ul {
   list-style: none;
 }
 img {
+  width: 100%;
   display: block;
 }
 .card-1 {
@@ -62,7 +63,6 @@ img {
 .card {
   border-radius: 20px;
   padding: 64px 24px 24px 24px;
-  width: 100%;
 }
 .price {
   background: #ffffff;
