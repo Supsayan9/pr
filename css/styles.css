@@ -31,30 +31,46 @@ img {
 }
 .card-2 {
   background-color: #edd251;
+  position: relative;
+  perspective: 1000px;
 }
 .card-3 {
   background-color: #9dc262;
+  position: relative;
+  perspective: 1000px;
 }
 .card-4 {
   background-color: #bfd663;
+  position: relative;
+  perspective: 1000px;
 }
 .card-5 {
   background-color: #e93f29;
+  position: relative;
+  perspective: 1000px;
 }
 .card-6 {
   background-color: #db4f4b;
+  position: relative;
+  perspective: 1000px;
 }
 .card-7 {
   background-color: #9b5366;
-  display: none;
+  position: relative;
+  perspective: 1000px;
+  visibility: hidden;
 }
 .card-8 {
   background-color: #f47f4c;
-  display: none;
+  position: relative;
+  perspective: 1000px;
+  visibility: hidden;
 }
 .card-9 {
   background-color: #98b37e;
-  display: none;
+  position: relative;
+  perspective: 1000px;
+  visibility: hidden;
 }
 
 .card-set {
@@ -144,11 +160,11 @@ img {
   }
   .card-7 {
     background-color: #9b5366;
-    display: block;
+    visibility: visible;
   }
   .card-8 {
     background-color: #f47f4c;
-    display: block;
+    visibility: visible;
   }
 }
 /* Загальні стилі для десктопу */
@@ -183,17 +199,8 @@ img {
     padding: 64px 24px 24px 24px;
     width: calc(100% / 3 - 16px);
   }
-  .card-7 {
-    background-color: #9b5366;
-    display: block;
-  }
-  .card-8 {
-    background-color: #f47f4c;
-    display: block;
-  }
   .card-9 {
-    background-color: #98b37e;
-    display: block;
+    visibility: visible;
   }
 }
 .card-1 {
@@ -236,7 +243,7 @@ img {
 }
 
 .back-text {
-  max-width: 320px;
+  max-width: 300px;
   text-align: center;
   padding: 10px;
   box-sizing: border-box;
