@@ -203,12 +203,7 @@ img {
     visibility: visible;
   }
 }
-.card-1 {
-  position: relative;
-  perspective: 1000px;
-}
-
-.image-wrapper {
+S .image-wrapper {
   position: relative;
 }
 
@@ -250,6 +245,6 @@ img {
   margin: auto;
 }
 
-.image-wrapper:hover .flip-card {
+.card:hover .flip-card {
   transform: rotateY(180deg);
 }
